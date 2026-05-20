@@ -22,9 +22,9 @@ syntax keyword dafnyMethod method lemma constructor colemma
 syntax keyword dafnyTypeDef class datatype codatatype newtype type iterator trait extends
 syntax keyword dafnyModule abstract module import opened as default
 syntax keyword dafnyConditional if then else match case
-syntax keyword dafnyRepeat while for to
+syntax keyword dafnyRepeat while for to downto
 syntax keyword dafnyStatement assume assert return yield new print break label where calc modify
-syntax keyword dafnyKeyword var ghost returns yields null static protected this refines include inductive exclusively const witness
+syntax keyword dafnyKeyword var ghost returns yields null static protected this refines include inductive exclusively const witness twostate
 syntax keyword dafnyType bool char nat int real set multiset seq string map imap object array array2 array3
 syntax keyword dafnyLogic requires ensures modifies reads decreases invariant
 syntax keyword dafnyOperator old fresh
