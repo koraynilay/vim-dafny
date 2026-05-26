@@ -50,18 +50,18 @@ syntax match dafnyOperator ":="
 syntax match dafnyOperator "||" conceal cchar=∨
 syntax match dafnyOperator "&&" conceal cchar=∧
 
-highlight link dafnyFunction Function
-highlight link dafnyMethod Statement
-highlight link dafnyModule StorageClass
-highlight link dafnyTypeDef Typedef
-highlight link dafnyConditional Conditional
-highlight link dafnyRepeat Repeat
-highlight link dafnyKeyword Keyword
-highlight link dafnyType Type
-highlight link dafnyLogic Debug
-highlight link dafnyComment Comment
-highlight link dafnyString String
-highlight link dafnyNumber Number
-highlight link dafnyOperator Operator
-highlight link dafnyStatement Statement
-highlight link dafnyBoolean Boolean
+highlight default link dafnyFunction Function
+highlight default link dafnyMethod Statement
+highlight default link dafnyModule StorageClass
+highlight default link dafnyTypeDef Typedef
+highlight default link dafnyConditional Conditional
+highlight default link dafnyRepeat Repeat
+highlight default link dafnyKeyword Keyword
+highlight default link dafnyType Type
+highlight default link dafnyLogic Debug
+highlight default link dafnyComment Comment
+highlight default link dafnyString String
+highlight default link dafnyNumber Number
+highlight default link dafnyOperator Operator
+highlight default link dafnyStatement Statement
+highlight default link dafnyBoolean Boolean
