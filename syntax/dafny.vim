@@ -65,3 +65,5 @@ highlight default link dafnyNumber Number
 highlight default link dafnyOperator Operator
 highlight default link dafnyStatement Statement
 highlight default link dafnyBoolean Boolean
+
+syntax sync ccomment dafnyComment
